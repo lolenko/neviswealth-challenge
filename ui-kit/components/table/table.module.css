@@ -1,0 +1,30 @@
+.root {
+  overflow: auto;
+  container-type: inline-size;
+  scroll-snap-type: x mandatory;
+
+  td,
+  th {
+    scroll-snap-align: start;
+  }
+}
+
+.__table {
+  min-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  table,
+  th,
+  td {
+    font: inherit;
+  }
+}
+
+.__head {
+  color: var(--color-content-secondary);
+}
+
+._noWrap {
+  white-space: nowrap;
+}

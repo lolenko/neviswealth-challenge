@@ -1,0 +1,19 @@
+.__row {
+  border-top: var(--border-width-base) solid var(--color-outline-line-solid);
+}
+.__row_clickable:hover :is(td, th) {
+  background: var(--color-surface-secondary);
+  cursor: pointer;
+}
+
+.__row_selected :is(td, th) {
+  background: var(--color-outline-line-solid);
+}
+
+@container (min-width: 540px) {
+  .__rowHeader {
+    position: sticky;
+    left: 0;
+    background: var(--color-background-secondary);
+  }
+}

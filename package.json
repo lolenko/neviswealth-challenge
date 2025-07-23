@@ -1,0 +1,46 @@
+{
+  "name": "neviswealth-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "client": "parcel client/index.html",
+    "server": "tsx server/index.ts",
+    "start": "yarn server & yarn client",
+    "lint": "tsc --noEmit & prettier --write . & eslint . --fix",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.34.0",
+    "@tanstack/react-query": "^5.83.0",
+    "axios": "^1.11.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "5.1.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "recharts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.10.0",
+    "@eslint/js": "^9.31.0",
+    "@eslint/json": "^0.13.0",
+    "@eslint/markdown": "^7.0.0",
+    "@types/express": "5.0.3",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "buffer": "^5.5.0||^6.0.0",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "parcel": "2.15.4",
+    "prettier": "^3.6.2",
+    "process": "^0.11.10",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "^8.37.0",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

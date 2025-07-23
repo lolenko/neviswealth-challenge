@@ -1,0 +1,55 @@
+.root {
+  padding: var(--spacing-md) var(--spacing-sm);
+}
+
+.root:first-child {
+  padding-left: var(--spacing-md);
+}
+
+.root:last-child {
+  padding-right: var(--spacing-md);
+}
+
+.__cellWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.__tabulation {
+  width: var(--size-md);
+  display: flex;
+  align-items: center;
+}
+
+.__chevron {
+  transition: rotate 0.1s ease-in-out;
+  width: var(--size-md);
+  height: var(--size-md);
+}
+
+.__content {
+  flex: 1;
+}
+
+._expandable {
+  cursor: pointer;
+}
+
+._expanded {
+  .__chevron {
+    rotate: 90deg;
+  }
+}
+
+._align_left .__content {
+  text-align: left;
+}
+
+._align_center .__content {
+  text-align: center;
+}
+
+._align_right .__content {
+  text-align: right;
+}

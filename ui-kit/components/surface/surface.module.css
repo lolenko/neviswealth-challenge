@@ -1,0 +1,20 @@
+.root {
+  background: var(--color-background-secondary);
+  border-radius: var(--border-radius-md);
+}
+
+._padding_sm {
+  padding: var(--spacing-sm);
+}
+
+._padding_md {
+  padding: var(--spacing-md);
+}
+
+._padding_lg {
+  padding: var(--spacing-lg);
+}
+
+._scroll {
+  overflow: auto;
+}

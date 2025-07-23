@@ -1,0 +1,42 @@
+@import '/ui-kit/theme/default.css';
+
+.root {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: var(--spacing-sm);
+}
+
+.__image,
+.__initials {
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.__initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1;
+  color: var(--color-background-secondary);
+}
+
+._size_sm {
+  .__image,
+  .__initials {
+    width: var(--size-lg);
+    height: var(--size-lg);
+    font: var(--typography-footnote);
+  }
+}
+
+._size_md {
+  .__image,
+  .__initials {
+    width: var(--size-xl);
+    height: var(--size-xl);
+    font: var(--typography-body-md);
+  }
+}

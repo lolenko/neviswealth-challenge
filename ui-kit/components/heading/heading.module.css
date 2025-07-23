@@ -1,0 +1,11 @@
+.root {
+  margin: 0;
+}
+
+._level_1 {
+  font: var(--typography-heading-lg);
+}
+
+._level_2 {
+  font: var(--typography-heading-md);
+}

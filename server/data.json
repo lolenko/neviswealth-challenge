@@ -1,0 +1,166 @@
+{
+  "id": "d6e00056-dce4-4ef4-b034-d6467db6187d",
+  "name": "Company",
+  "values": [500, 534, 568, 602, 634, 668, 700, 500, 500, 500, 500, 700],
+  "branches": [
+    {
+      "id": "d6b668e1-89a4-4467-bdf6-c9ebaf2cea5f",
+      "name": "Branch 1",
+      "values": [184, 195, 208, 220, 235, 250, 270, 184, 184, 184, 184, 270],
+      "employees": [
+        {
+          "id": "e3c4637b-2f21-4b7e-883e-b13ae1a6df6a",
+          "name": "Anna Blackwood",
+          "values": [
+            100, 105, 110, 115, 120, 125, 130, 100, 100, 100, 100, 130
+          ],
+          "channels": [
+            {
+              "id": "716e7c30-b7c3-45c5-aa64-cbcf483917e0",
+              "name": "Existing clients",
+              "values": [50, 52, 54, 56, 58, 60, 62, 50, 50, 50, 50, 62]
+            },
+            {
+              "id": "bc5cd63a-668b-4c37-854d-69c1bd5fcbcd",
+              "name": "New organic",
+              "values": [30, 31, 32, 33, 34, 35, 36, 30, 30, 30, 30, 36]
+            },
+            {
+              "id": "abbf873a-a0eb-46b8-b4cf-dc58e5f7a2d7",
+              "name": "New paid",
+              "values": [20, 22, 24, 26, 28, 30, 32, 20, 20, 20, 20, 32]
+            }
+          ]
+        },
+        {
+          "id": "afe9ebc0-6c35-4690-80b0-20e9bc0d8c7d",
+          "name": "James Walker",
+          "values": [84, 90, 98, 105, 115, 125, 140, 84, 84, 84, 84, 140],
+          "channels": [
+            {
+              "id": "716e7c30-b7c3-45c5-aa64-cbcf483917e0",
+              "name": "Existing clients",
+              "values": [40, 42, 45, 48, 50, 52, 55, 40, 40, 40, 40, 55]
+            },
+            {
+              "id": "bc5cd63a-668b-4c37-854d-69c1bd5fcbcd",
+              "name": "New organic",
+              "values": [24, 26, 28, 30, 32, 34, 36, 24, 24, 24, 24, 36]
+            },
+            {
+              "id": "abbf873a-a0eb-46b8-b4cf-dc58e5f7a2d7",
+              "name": "New paid",
+              "values": [20, 22, 25, 27, 33, 39, 49, 20, 20, 20, 20, 49]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "71da0b06-5785-4a60-9273-4df2be619ee4",
+      "name": "Branch 2",
+      "values": [200, 210, 220, 230, 240, 250, 260, 200, 200, 200, 200, 260],
+      "employees": [
+        {
+          "id": "f1a2b3c4-d5e6-7f89-0a1b-2c3d4e5f6a7b",
+          "name": "John Doe",
+          "values": [
+            100, 105, 110, 115, 120, 125, 130, 100, 100, 100, 100, 130
+          ],
+          "channels": [
+            {
+              "id": "716e7c30-b7c3-45c5-aa64-cbcf483917e0",
+              "name": "Existing clients",
+              "values": [50, 52, 54, 56, 58, 60, 62, 50, 50, 50, 50, 62]
+            },
+            {
+              "id": "bc5cd63a-668b-4c37-854d-69c1bd5fcbcd",
+              "name": "New organic",
+              "values": [30, 31, 32, 33, 34, 35, 36, 30, 30, 30, 30, 36]
+            },
+            {
+              "id": "abbf873a-a0eb-46b8-b4cf-dc58e5f7a2d7",
+              "name": "New paid",
+              "values": [20, 22, 24, 26, 28, 30, 32, 20, 20, 20, 20, 32]
+            }
+          ]
+        },
+        {
+          "id": "a1b2c3d4-e5f6-7a89-0b1c-2d3e4f5a6b7c",
+          "name": "Jane Smith",
+          "values": [
+            100, 105, 110, 115, 120, 125, 130, 100, 100, 100, 100, 130
+          ],
+          "channels": [
+            {
+              "id": "716e7c30-b7c3-45c5-aa64-cbcf483917e0",
+              "name": "Existing clients",
+              "values": [50, 52, 54, 56, 58, 60, 62, 50, 50, 50, 50, 62]
+            },
+            {
+              "id": "bc5cd63a-668b-4c37-854d-69c1bd5fcbcd",
+              "name": "New organic",
+              "values": [30, 31, 32, 33, 34, 35, 36, 30, 30, 30, 30, 36]
+            },
+            {
+              "id": "abbf873a-a0eb-46b8-b4cf-dc58e5f7a2d7",
+              "name": "New paid",
+              "values": [20, 22, 24, 26, 28, 30, 32, 20, 20, 20, 20, 32]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63b01d42-922f-43ff-b0f8-2f3484e74c43",
+      "name": "Branch 3",
+      "values": [116, 129, 140, 152, 159, 168, 170, 116, 116, 116, 116, 170],
+      "employees": [
+        {
+          "id": "b1c2d3e4-f5a6-7b89-0c1d-2e3f4a5b6c7d",
+          "name": "Alice Johnson",
+          "values": [58, 65, 70, 76, 79, 84, 85, 58, 58, 58, 58, 85],
+          "channels": [
+            {
+              "id": "716e7c30-b7c3-45c5-aa64-cbcf483917e0",
+              "name": "Existing clients",
+              "values": [30, 33, 35, 38, 39, 42, 43, 30, 30, 30, 30, 43]
+            },
+            {
+              "id": "bc5cd63a-668b-4c37-854d-69c1bd5fcbcd",
+              "name": "New organic",
+              "values": [20, 22, 23, 24, 25, 26, 27, 20, 20, 20, 20, 27]
+            },
+            {
+              "id": "abbf873a-a0eb-46b8-b4cf-dc58e5f7a2d7",
+              "name": "New paid",
+              "values": [8, 10, 12, 14, 15, 16, 15, 8, 8, 8, 8, 15]
+            }
+          ]
+        },
+        {
+          "id": "c1d2e3f4-a5b6-7c89-0d1e-2f3a4b5c6d7e",
+          "name": "Bob Brown",
+          "values": [58, 64, 70, 76, 80, 84, 85, 58, 58, 58, 58, 85],
+          "channels": [
+            {
+              "id": "716e7c30-b7c3-45c5-aa64-cbcf483917e0",
+              "name": "Existing clients",
+              "values": [30, 33, 35, 38, 39, 42, 43, 30, 30, 30, 30, 43]
+            },
+            {
+              "id": "bc5cd63a-668b-4c37-854d-69c1bd5fcbcd",
+              "name": "New organic",
+              "values": [20, 22, 23, 24, 25, 26, 27, 20, 20, 20, 20, 27]
+            },
+            {
+              "id": "abbf873a-a0eb-46b8-b4cf-dc58e5f7a2d7",
+              "name": "New paid",
+              "values": [8, 9, 12, 14, 16, 16, 15, 8, 8, 8, 8, 15]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

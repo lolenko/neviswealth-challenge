@@ -1,0 +1,67 @@
+:root {
+  --base-unit: 8px;
+
+  /* Font Primitives */
+  --core-font-family-base: Inter, system-ui, sans-serif;
+  --core-font-family-title: 'Inter Display', system-ui, sans-serif;
+  --core-font-weight-regular: 400;
+  --core-font-weight-medium: 500;
+  --core-font-weight-bold: 700;
+
+  /* Colors */
+  --color-content-primary: #141413;
+  --color-content-secondary: rgba(20, 20, 19, 0.6);
+  --color-background-primary: #f7f5ed;
+  --color-background-secondary: #fff;
+  --color-surface-secondary: #f8f8f8; /* Original: rgba(20, 20, 19, 0.04) */
+  --color-outline-line-solid: #ededed; /* Original: rgba(20, 20, 19, 0.08) */
+
+  /* Sizing */
+  --size-xs: calc(var(--base-unit) * 0.5);
+  --size-sm: var(--base-unit);
+  --size-md: calc(var(--base-unit) * 2);
+  --size-lg: calc(var(--base-unit) * 2.5);
+  --size-xl: calc(var(--base-unit) * 3);
+
+  /* Spacing */
+  --spacing-xs: calc(var(--base-unit) * 0.5);
+  --spacing-sm: var(--base-unit);
+  --spacing-md: calc(var(--base-unit) * 2);
+  --spacing-lg: calc(var(--base-unit) * 3);
+  --spacing-xl: calc(var(--base-unit) * 4);
+
+  /* Typography */
+  --typography-body-md: var(--core-font-weight-regular) 0.875rem/1.25rem
+    var(--core-font-family-base);
+  --typography-heading-lg: var(--core-font-weight-regular) 2.1875rem/1.25
+    var(--core-font-family-title);
+  --typography-heading-md: var(--core-font-weight-regular) 2rem/1.4
+    var(--core-font-family-title);
+  --typography-footnote: var(--core-font-weight-regular) 0.75rem/1rem
+    var(--core-font-family-base);
+
+  /* Other */
+  --border-radius-md: var(--base-unit);
+  --border-radius-sm: calc(var(--base-unit) / 2);
+  --border-radius-xs: calc(var(--base-unit) / 4);
+  --border-width-base: 1px;
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scrollbar-gutter: stable;
+  background: var(--color-background-primary);
+}
+
+#app {
+  font: var(--typography-body-md);
+  padding: var(--spacing-xl);
+  color: var(--color-content-primary);
+  box-sizing: border-box;
+}

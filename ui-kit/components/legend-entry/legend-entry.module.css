@@ -1,0 +1,5 @@
+.__icon {
+  width: var(--size-sm);
+  height: var(--size-sm);
+  border-radius: var(--border-radius-xs);
+}

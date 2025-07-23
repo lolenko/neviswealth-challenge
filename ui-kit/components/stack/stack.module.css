@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+}
+
+._size_md {
+  gap: var(--spacing-md);
+}
+
+._size_sm {
+  gap: var(--spacing-sm);
+}
+
+._size_xs {
+  gap: var(--spacing-xs);
+}
+
+._direction_row {
+  flex-direction: row;
+}
+
+._direction_column {
+  flex-direction: column;
+}
+
+._justifyContent_start {
+  justify-content: start;
+}
+
+._justifyContent_center {
+  justify-content: center;
+}
+
+._justifyContent_end {
+  justify-content: end;
+}
+
+._alignItems_stretch {
+  align-items: stretch;
+}
+
+._alignItems_center {
+  align-items: center;
+}
