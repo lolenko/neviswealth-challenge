@@ -49,7 +49,7 @@ const TableRows = <T extends TableRowData>(props: TableRowsProps<T>) => {
               {columns.map((column) => {
                 const isRowHeader = column.key === rowHeaderKey;
                 const handleClick = () => {
-                  if (hasSubRows && isRowHeader) {
+                  if (hasSubRows) {
                     toggleExpanded?.(key);
                   }
                   if (isRowClickable) {
